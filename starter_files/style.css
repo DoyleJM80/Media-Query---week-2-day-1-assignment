@@ -185,3 +185,32 @@ div {
   }
 
 }
+
+/*----------desktop---------*/
+
+@media (min-width: 900px) {
+  header {
+    flex-direction: column;
+  }
+
+  #logo {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+
+  #main_content {
+    height: 385px;
+    flex-direction: column;
+    font-size: 20.5px;
+  }
+
+  #sidebar_content {
+    font-size: 20.5px;
+    margin-bottom: 20px;
+  }
+
+  div h2 {
+    padding-top: 0;
+  }
+
+}
